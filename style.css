@@ -37,5 +37,28 @@
     justify-content: space-between;
 
     border-radius: .375rem;
-    
+    border: 1px solid #252529;
+    background-color: #17171A;
+
+}
+
+#selected-value{
+    color:#AFABB6;
+    font-size: 0.875rem;
+    letter-spacing: 0.2625rem;
+}
+
+#chevrons svg{
+    width: 1rem;
+    height: 1rem;
+}
+
+#chevrons{
+    color:#AFABB6;
+}
+
+#chevrons [data-lucide="chevron up"] {
+
+    display: none;
+
 }
