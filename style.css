@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: Inter, sans-serif;
+    background-color: #0C0C0D;
+    color:#EDEAF9;
+
+    font-synthesis: none;
+    text-rendering:optmizelegibility;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+.select{
+    padding: 6rem;
+
+}
+
+#category-select label{
+    font-size: 0.75 rem;
+    line-height: 0.0225rem;
+}
+
+#select-button{
+    margin-top:.5rem;
+    display:flex;
+    padding: 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: .375rem;
+    
+}
